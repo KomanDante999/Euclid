@@ -1,0 +1,56 @@
+@media (max-width: 1024px) {
+  .quest__title {
+    margin-bottom: 32px;
+  }
+  .quest__caption {
+    padding: 29px 0;
+  }
+  .accordion__caption_text {
+    max-width: 756px;
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+@media (max-width: 960px) {
+  .accordion__text {
+    width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  .accordion__text {
+    width: 100%;
+  }
+}
+@media (max-width: 580px) {
+  .quest__title {
+    margin-bottom: 20px;
+  }
+  .accordion__caption_text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .ques__svg {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media (max-width: 375px) {
+  .section__quest {
+    margin-bottom: 56px;
+  }
+  .quest__title {
+    margin-bottom: 16px;
+  }
+  .quest__caption {
+    padding: 30px 0;
+  }
+  .accordion__caption_text {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .ques__svg {
+    width: 30px;
+    height: 30px;
+  }
+}

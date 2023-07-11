@@ -1,0 +1,141 @@
+@media (max-width: 1360px) {
+  :root {
+    --padding-container: 60px;
+  }
+  .container {
+    max-width: 1360px;
+  }
+}
+@media (max-width: 1024px) {
+  :root {
+    --padding-container: 50px;
+  }
+  .container {
+    max-width: 1024px;
+  }
+  .section {
+    margin-bottom: 80px;
+  }
+  .text {
+    line-height: 32px;
+  }
+  .text_style_h1 {
+    font-size: 60px;
+    line-height: 73px;
+  }
+  .text_style_h2 {
+    font-size: 48px;
+    line-height: 59px;
+  }
+  .text_style_h3 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .button_size_l {
+    height: 58px;
+  }
+  .text_style_button {
+    font-weight: bold;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 960px) {
+  :root {
+    --padding-container: 40px;
+  }
+  .container {
+    max-width: 960px;
+  }
+}
+@media (max-width: 768px) {
+  :root {
+    --padding-container: 40px;
+  }
+  .container {
+    max-width: 768px;
+  }
+  .text_style_h1 {
+    font-size: 50px;
+    line-height: 61px;
+  }
+}
+@media (max-width: 580px) {
+  :root {
+    --padding-container: 20px;
+  }
+  .container {
+    max-width: 580px;
+  }
+  .text_style_h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .text_style_h2 {
+    font-size: 38px;
+    line-height: 49px;
+  }
+  .button_size_xl {
+    width: 162px;
+    height: 40px;
+  }
+  .button_size_m {
+    width: 162px;
+    height: 40px;
+  }
+  .button_size_s {
+    width: 118px;
+    height: 40px;
+  }
+  .button_size_l {
+    width: 180px;
+    height: 40px;
+  }
+  .text_size_l,
+  .text_style_button {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+@media (max-width: 375px) {
+  :root {
+    --padding-container: 15px;
+  }
+  .container {
+    max-width: 375px;
+  }
+  .section {
+    margin-bottom: 60px;
+  }
+  .text {
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .text_style_h1 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .text_style_h2 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .text_style_h3 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .swiper-pagination {
+    bottom: 12px !important;
+  }
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    max-width: 320px;
+  }
+}
+
+

@@ -1,0 +1,123 @@
+@media (max-width: 1600px) {
+  .footer__column-left {
+    margin-right: 20px;
+  }
+}
+@media (max-width: 1366px) {
+  .footer__column-right {
+    display: none;
+    position: absolute;
+    clip: rect(0 0 0 0);
+  }
+  .footer__column-center {
+    margin-right: 0;
+  }
+}
+@media (max-width: 1024px) {
+  .footer__column-center {
+    max-width: 541px;
+  }
+  .form__button {
+    width: 240px;
+  }
+
+}
+@media (max-width: 960px) {
+  .footer__menu {
+    display: none;
+    position: absolute;
+    clip: rect(0 0 0 0);
+  }
+  .footer__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .footer__column-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    margin-right: 0;
+  }
+  .footer__column-center {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .footer__container {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .form__checkbox-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .form__button {
+    margin-right: 0;
+    margin-bottom: 11px;
+  }
+  .form__checkbox__label {
+    width: 280px;
+    padding-left: 5px;
+    font-size: 16px;
+    line-height: 32px;
+    /* text-align: center; */
+  }
+}
+@media (max-width: 375px) {
+  .footer__container {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .footer__column-center {
+    margin-bottom: 16px;
+    border-bottom: 1px solid hsla(0, 0%, 35%, 1);
+    ;
+  }
+  .footer__logo {
+    width: 131px;
+    height: 42px;
+    margin-bottom: 20px;
+  }
+  .form__legend {
+    margin-bottom: 23px;
+  }
+  .input::-webkit-input-placeholder {
+    font-size: 14px;
+  }
+  .form__comment {
+    margin-bottom: 24px;
+  }
+  .form__button {
+    width: 180px;
+    height: 40px;
+  }
+  .social-icon__list {
+    width: 153px;
+  }
+  .social-icon__svg {
+    width: 40px;
+    height: 40px;
+  }
+
+}
+@media (max-width: 320px) {
+
+}
+
+
